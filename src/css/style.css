@@ -122,7 +122,7 @@ textarea {
 }
 .home_container,
 .about_container {
-  padding-top: 32px;
+  padding-top: 5px;
   row-gap: 40px;
 }
 .home_content {
@@ -149,13 +149,20 @@ textarea {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-semi-bold);
 }
-.home_description,
-.about_description {
+.home_description {
   margin: 20px 28px;
   color: #c8c8c8;
   font-size: 18px;
 }
-
+.about_description {
+  color: #c8c8c8;
+  font-size: 18px;
+  margin-top: 20px;
+  padding-top: 8px;
+  margin-right: 20px;
+  padding-left: 10px;
+  justify-content: left;
+}
 .home_social {
   display: flex;
   justify-content: center;
@@ -194,10 +201,15 @@ textarea {
 }
 .about-image {
   justify-self: center;
+  margin-top: 15px;
 }
 .img1 {
   border: 6px solid var(--first-color);
   border-radius: 50px;
+  float: right;
+  margin-left: 100px;
+  position: relative;
+  left: -50px;
 }
 
 .devi {
@@ -253,44 +265,85 @@ textarea {
 }
 
 .contact_container {
-  padding-top: 16px;
+  padding-top: 55px;
+  justify-content: center;
+  text-align: center;
 }
-.contact_form,
-.contact_group {
-  display: grid;
-  row-gap: 16px;
+.about_description h4 {
+  color: var(--first-color);
+  margin-top: -18px;
 }
-.contact_form {
-  position: relative;
+h4:hover {
+  text-decoration: underline;
+}
+.clink {
+  color: var(--first-color);
+}
+.open {
+  color: var(--first-color);
+}
+.open:hover {
+  text-decoration: underline;
 }
 
-.contact_input {
-  padding: 16px 20px;
-  border-radius: 8px;
-  background-color: #554e62;
+.footer {
+  background-color: #130a20;
+  padding: 15px;
 }
-.contact_input::placeholder {
-  color: #c0c0c0;
+.footer_container {
+  row-gap: 32px;
+  text-align: center;
 }
-.contact_form textarea {
-  height: 170px;
-  resize: none;
+.footer_title {
+  font-size: 24px;
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 4px;
 }
-.contact_button {
-  justify-self: center;
+.footer_title span {
+  color: var(--first-color);
 }
-.contact_message {
-  position: absolute;
-  left: 0;
-  bottom: 72px;
+.footer_role {
+  font-size: 17px;
 }
+.footer_social {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+.footer_social-link {
+  display: flex;
+  background-color: var(--first-color);
+  margin-top: -20px;
+  padding: 10px;
+  color: black;
+  font-size: 24px;
+  clip-path: circle();
+  transition: transform 0.4s;
+}
+.footer_social-link:hover {
+  transform: translateY(-6px);
+}
+.footer_copy {
+  font-size: 16px;
+  margin-top: -10px;
+  color: var(--title-color);
+  margin-bottom: 5px;
+}
+
 @media (min-width: 768px) {
   .nav-link {
     padding: 0 15px 0 15px !important;
+  }
+  .rice {
+    margin-top: 78px;
   }
 }
 @media (max-width: 768px) {
   .resp {
     padding-top: 6px !important;
+  }
+
+  .footer_copy {
+    font-size: 15px;
   }
 }

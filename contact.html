@@ -36,7 +36,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
-
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <title>Contact Me</title>
   </head>
 
@@ -76,37 +79,32 @@
         <h3 class="section_subtitle">Let's <span>Talk</span></h3>
         <h2 class="section_title">Contact Me</h2>
         <div class="contact_container container grid">
-          <form action="" class="contact_form" id="contact-form">
-            <div class="contact_group">
-              <input
-                type="text"
-                name="user_name"
-                required
-                placeholder="Enter your name"
-                class="contact_input"
-              />
-              <input
-                type="email"
-                name="user_email"
-                required
-                placeholder="Enter your email"
-                class="contact_input mb-3"
-              />
-            </div>
-            <textarea
-              name="user_project"
-              required
-              placeholder="Enter your message"
-              class="contact_input"
-            ></textarea>
-            <p class="contact_message" id="contact-message"></p>
-            <button type="submit" class="button contact_button">
-              Send Message
-            </button>
-          </form>
+          <h2><i class="ri-mail-line"></i> Email</h2>
+          <a href="mailto:oghenetega.f@yahoo.com" target="_blank"
+            ><h4 class="clink">oghenetega.f@yahoo.com</h4></a
+          >
+          <div class="mt-3">
+            <h2 class="pb-3"><i class="ri-github-fill"></i> Github</h2>
+            <a href="https://github.com/Oghenet3ga" target="_blank"
+              ><h4 class="clink pt-1">Oghenet3ga</h4></a
+            >
+          </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <div>
+          <h1 class="footer_title">Tega <span>Fregene</span></h1>
+          <h2 class="footer_role">Front-end Developer</h2>
+        </div>
+
+        <span class="footer_copy"
+          >This website was coded by Tega Fregene and is
+          <a href="#" target="blank" class="open">open-sourced.</a></span
+        >
+      </div>
+    </footer>
     <script src="src/js/main.js"></script>
   </body>
 </html>

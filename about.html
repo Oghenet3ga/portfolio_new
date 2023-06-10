@@ -36,7 +36,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
-
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <title>About Tega</title>
   </head>
 
@@ -79,29 +82,32 @@
         <div class="about_container container grid">
           <div class="about_data pb-4">
             <h3 class="section_subtitle">My <span>intro</span></h3>
-            <h2 class="section_title">About Me</h2>
-            <p class="about_description pb-3">
-              I was introduced to web development through the SheCodes program
-              where I received certificates in the Basic, Plus, Responsive, and
-              React courses. I am also a graduate of the ALX and Holberton
-              School Software Engineering program. As an economics graduate, I
-              have always been fascinated with the intersection of economics and
-              technology. In my work as a front-end developer, I bring a unique
-              perspective to my projects by integrating aspects of behavioural
-              economics and economics as a whole. I am passionate about creating
-              innovative and insightful projects that not only look great but
-              also offer value to the end-users. I am constantly refining my
-              skills and keeping up to date with the latest technology to ensure
-              that I deliver the best possible user experience.
-            </p>
-            <a href="projects.html" class="button">View Projects</a>
-          </div>
-          <div class="about_image">
-            <img
-              src="src/images/pic.jpg"
-              class="img-fluid img1"
-              width="350px"
-            />
+            <h2 class="section_title pb-2">About Me</h2>
+            <div class="about_image">
+              <img
+                src="src/images/pic.jpg"
+                class="img-fluid img1"
+                width="350px"
+              />
+            </div>
+            <div class="conf">
+              <p class="about_description pb-3 pt-5 text-center">
+                I was introduced to web development through the SheCodes program
+                where I received certificates in the Basic, Plus, Responsive,
+                and React courses. I am also a graduate of the ALX and Holberton
+                School Software Engineering program. As an economics graduate, I
+                have always been fascinated with the intersection of economics
+                and technology. In my work as a front-end developer, I bring a
+                unique perspective to my projects by integrating aspects of
+                behavioural economics and economics as a whole. I am passionate
+                about creating innovative and insightful projects that not only
+                look great but also offer value to the end-users. I am
+                constantly refining my skills and keeping up to date with the
+                latest technology to ensure that I deliver the best possible
+                user experience.
+              </p>
+              <a href="projects.html" class="button">View Projects</a>
+            </div>
           </div>
         </div>
       </section>
@@ -159,6 +165,34 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <div>
+          <h1 class="footer_title">Tega <span>Fregene</span></h1>
+          <h2 class="footer_role">Front-end Developer</h2>
+        </div>
+        <div class="footer_social">
+          <a
+            href="mailto:oghenetega.f@yahoo.com"
+            target="blank"
+            class="footer_social-link"
+            ><i class="ri-mail-line"></i
+          ></a>
+          <a
+            href="https://github.com/Oghenet3ga"
+            target="blank"
+            class="footer_social-link"
+            ><i class="ri-github-fill"></i></a
+          ><a href="#" target="blank" class="footer_social-link"
+            ><i class="ri-linkedin-box-fill"></i
+          ></a>
+        </div>
+        <span class="footer_copy"
+          >This website was coded by Tega Fregene and is
+          <a href="#" target="blank" class="open">open-sourced.</a></span
+        >
+      </div>
+    </footer>
     <script src="src/js/main.js"></script>
   </body>
 </html>
