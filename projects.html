@@ -37,7 +37,7 @@
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
 
-    <title>Tega Fregene</title>
+    <title>Projects</title>
   </head>
 
   <body>
@@ -61,52 +61,58 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a
-              class="nav-link active pt-3 pb-3"
-              aria-current="page"
-              href="index.html"
-              >Home</a
-            >
+            <a class="nav-link pt-3 pb-3" href="index.html">Home</a>
             <a class="nav-link pb-3" href="about.html">About</a>
-            <a class="nav-link pb-3" href="projects.html">Projects</a>
-            <a class="nav-link pb-3" href="contact.html">Contact</a>
+            <a
+              class="nav-link pb-3 active"
+              aria-current="page"
+              href="projects.html"
+              >Projects</a
+            >
+            <a class="nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
     </nav>
     <main class="main">
-      <section class="home section" id="home">
-        <div class="home_container container grid">
-          <div class="home_content">
-            <div class="home_data">
-              <h3 class="home_subtitle">Hello, <span>I'm</span></h3>
-              <h1 class="home_title"><span class="auto-input"></span></h1>
-              <h3 class="home_role">Front-end Developer based in Nigeria</h3>
-              <p class="home_description pb-3">
-                As a developer, I see the importance of creating efficient and
-                optimized solutions while keeping user experience in mind. With
-                my background in economics, I am passionate about integrating
-                economic topics and principles into coding. I am excited to
-                utilize my skills and knowledge in both fields to create
-                innovative and meaningful projects.
-              </p>
-              <a href="contact.html" class="button">Contact me</a>
+      <section class="projects section" id="projects">
+        <h3 class="section_subtitle">My <span>Works</span></h3>
+        <h2 class="section_title">Recent Projects</h2>
+        <div class="projects_container container grid">
+          <div class="row">
+            <div class="col-md-6 pt-5">
+              <article class="projects_card">
+                <img
+                  src="src/images/weath.jpg"
+                  alt="weather_app"
+                  class="projects_image img-fluid"
+                />
+                <div class="projects_modal">
+                  <h2 class="projects_title">Vanilla Weather App</h2>
+                  <a
+                    href="https://celebrated-taiyaki-ea19a4.netlify.app/"
+                    target="_blank"
+                    class="projects_button"
+                    >Launch App <i class="ri-external-link-line"></i
+                  ></a>
+                </div>
+              </article>
             </div>
-            <!--<div class="home_social">
-              <a
-                href="https://github.com/Oghenet3ga"
-                target="blank"
-                class="home_social-link"
-                ><i class="ri-github-fill"></i>
-              </a>
-
-              <a
-                href="mailto:oghenetega.f@yahoo.com"
-                target="blank"
-                class="home_social-link"
-                ><i class="ri-mail-line"></i
-              ></a>
-            </div>-->
+            <div class="col-md-6 pt-5">
+              <article class="projects_card">
+                <img
+                  src="src/images/jrice.jpg"
+                  alt="landing page"
+                  class="projects_image img-fluid"
+                />
+                <div class="projects_modal">
+                  <h2 class="projects_title">Landing Page</h2>
+                  <a href="#" target="_blank" class="projects_button"
+                    >Launch App <i class="ri-external-link-line"></i
+                  ></a>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
       </section>
