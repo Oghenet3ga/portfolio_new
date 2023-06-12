@@ -43,111 +43,113 @@
     <title>Projects</title>
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg header">
-      <div class="container-fluid">
-        <a class="navbar-brand name_logo" href="index.html"
-          >Tega <span>Fregene</span></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"
-            ><i class="fas fa-bars" style="color: #fff; font-size: 28px"></i
-          ></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link pt-3 pb-3" href="index.html">Home</a>
-            <a class="nav-link pb-3" href="about.html">About</a>
+  <body id="page-container">
+    <div id="container">
+      <nav class="navbar navbar-expand-lg header">
+        <div class="container-fluid">
+          <a class="navbar-brand name_logo" href="index.html"
+            >Tega <span>Fregene</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><i class="fas fa-bars" style="color: #fff; font-size: 28px"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link pt-3 pb-3" href="index.html">Home</a>
+              <a class="nav-link pb-3" href="about.html">About</a>
+              <a
+                class="nav-link pb-3 active"
+                aria-current="page"
+                href="projects.html"
+                >Projects</a
+              >
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="main">
+        <section class="projects section" id="projects">
+          <h3 class="section_subtitle">My <span>Works</span></h3>
+          <h2 class="section_title">Recent Projects</h2>
+          <div class="projects_container container grid">
+            <div class="row">
+              <div class="col-md-6 pt-5">
+                <article class="projects_card">
+                  <img
+                    src="src/images/weath.jpg"
+                    alt="weather_app"
+                    class="projects_image img-fluid"
+                  />
+                  <div class="projects_modal">
+                    <h2 class="projects_title">Vanilla Weather App</h2>
+                    <a
+                      href="https://celebrated-taiyaki-ea19a4.netlify.app/"
+                      target="_blank"
+                      class="projects_button"
+                      >Launch App <i class="ri-external-link-line"></i
+                    ></a>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-6 pt-5 rice">
+                <article class="projects_card">
+                  <img
+                    src="src/images/jrice.jpg"
+                    alt="landing page"
+                    class="projects_image img-fluid"
+                  />
+                  <div class="projects_modal">
+                    <h2 class="projects_title">Landing Page</h2>
+                    <a href="#" target="_blank" class="projects_button"
+                      >Launch App <i class="ri-external-link-line"></i
+                    ></a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Tega <span>Fregene</span></h1>
+            <h2 class="footer_role">Front-end Developer</h2>
+          </div>
+          <div class="footer_social">
             <a
-              class="nav-link pb-3 active"
-              aria-current="page"
-              href="projects.html"
-              >Projects</a
-            >
-            <a class="nav-link" href="contact.html">Contact</a>
+              href="mailto:oghenetega.f@yahoo.com"
+              target="blank"
+              class="footer_social-link"
+              ><i class="ri-mail-line"></i
+            ></a>
+            <a
+              href="https://github.com/Oghenet3ga"
+              target="blank"
+              class="footer_social-link"
+              ><i class="ri-github-fill"></i></a
+            ><a href="#" target="blank" class="footer_social-link"
+              ><i class="ri-linkedin-box-fill"></i
+            ></a>
           </div>
+          <span class="footer_copy"
+            >This website was coded by Tega Fregene and is
+            <a href="#" target="blank" class="open">open-sourced.</a></span
+          >
         </div>
-      </div>
-    </nav>
-    <main class="main">
-      <section class="projects section" id="projects">
-        <h3 class="section_subtitle">My <span>Works</span></h3>
-        <h2 class="section_title">Recent Projects</h2>
-        <div class="projects_container container grid">
-          <div class="row">
-            <div class="col-md-6 pt-5">
-              <article class="projects_card">
-                <img
-                  src="src/images/weath.jpg"
-                  alt="weather_app"
-                  class="projects_image img-fluid"
-                />
-                <div class="projects_modal">
-                  <h2 class="projects_title">Vanilla Weather App</h2>
-                  <a
-                    href="https://celebrated-taiyaki-ea19a4.netlify.app/"
-                    target="_blank"
-                    class="projects_button"
-                    >Launch App <i class="ri-external-link-line"></i
-                  ></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 pt-5 rice">
-              <article class="projects_card">
-                <img
-                  src="src/images/jrice.jpg"
-                  alt="landing page"
-                  class="projects_image img-fluid"
-                />
-                <div class="projects_modal">
-                  <h2 class="projects_title">Landing Page</h2>
-                  <a href="#" target="_blank" class="projects_button"
-                    >Launch App <i class="ri-external-link-line"></i
-                  ></a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer_container container grid">
-        <div>
-          <h1 class="footer_title">Tega <span>Fregene</span></h1>
-          <h2 class="footer_role">Front-end Developer</h2>
-        </div>
-        <div class="footer_social">
-          <a
-            href="mailto:oghenetega.f@yahoo.com"
-            target="blank"
-            class="footer_social-link"
-            ><i class="ri-mail-line"></i
-          ></a>
-          <a
-            href="https://github.com/Oghenet3ga"
-            target="blank"
-            class="footer_social-link"
-            ><i class="ri-github-fill"></i></a
-          ><a href="#" target="blank" class="footer_social-link"
-            ><i class="ri-linkedin-box-fill"></i
-          ></a>
-        </div>
-        <span class="footer_copy"
-          >This website was coded by Tega Fregene and is
-          <a href="#" target="blank" class="open">open-sourced.</a></span
-        >
-      </div>
-    </footer>
+      </footer>
+    </div>
     <script src="src/js/main.js"></script>
   </body>
 </html>
