@@ -165,6 +165,7 @@ textarea {
   margin: 20px 28px;
   color: #c8c8c8;
   font-size: 18px;
+  text-align: justify;
 }
 .about_description {
   color: #c8c8c8;
@@ -173,7 +174,7 @@ textarea {
   padding-top: 8px;
   margin-right: 20px;
   padding-left: 10px;
-  justify-content: left;
+  text-align: justify;
 }
 
 .button {
@@ -189,6 +190,31 @@ textarea {
 }
 .button:hover {
   box-shadow: 0 8px 24px hsla(var(--hue), 100%, 40%, 0.25);
+}
+.pro1 {
+  background-color: var(--body-color);
+  border: none;
+
+  color: #c8c8c8;
+}
+
+.project_description {
+  font-size: 17px;
+  margin-top: 20px;
+  padding-top: 8px;
+  margin-right: 20px;
+  padding-left: 10px;
+  text-align: justify;
+}
+.home_proj_image {
+  justify-self: center;
+}
+.btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  border: none;
 }
 .about-image {
   justify-self: center;
@@ -345,6 +371,9 @@ h4:hover {
 
   .footer_copy {
     font-size: 13px;
+  }
+  .home_proj_title {
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 320px) {
