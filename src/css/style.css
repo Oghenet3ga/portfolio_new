@@ -31,7 +31,7 @@ html,
 body {
   scroll-behavior: smooth;
   height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--body-color);
   color: var(--text-color);
   margin: 0;
@@ -175,28 +175,7 @@ textarea {
   padding-left: 10px;
   justify-content: left;
 }
-.home_social {
-  display: flex;
-  justify-content: center;
-  column-gap: 20px;
-}
-.home_social-link {
-  display: flex;
-  background-color: var(--first-color);
-  color: black;
-  padding: 8px;
-  font-size: 20px;
-  clip-path: polygon(
-    20% 0%,
-    80% 0%,
-    100% 20%,
-    100% 80%,
-    80% 100%,
-    20% 100%,
-    0% 80%,
-    0% 20%
-  );
-}
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -214,6 +193,9 @@ textarea {
 .about-image {
   justify-self: center;
   margin-top: 15px;
+}
+.skills_data {
+  margin-top: -45px;
 }
 .img1 {
   border: 6px solid var(--first-color);
@@ -276,11 +258,6 @@ textarea {
   bottom: 0;
 }
 
-.contact_container {
-  padding-top: 55px;
-  justify-content: center;
-  text-align: center;
-}
 .about_description h4 {
   color: var(--first-color);
   margin-top: -18px;
@@ -288,10 +265,7 @@ textarea {
 h4:hover {
   text-decoration: underline;
 }
-.clink {
-  color: var(--first-color);
-  margin-top: -10px;
-}
+
 .open {
   color: var(--first-color);
 }
@@ -329,7 +303,7 @@ h4:hover {
   margin-top: -20px;
   padding: 10px;
   color: black;
-  font-size: 24px;
+  font-size: 18px;
   clip-path: circle();
   transition: transform 0.4s;
 }
@@ -337,7 +311,7 @@ h4:hover {
   transform: translateY(-6px);
 }
 .footer_copy {
-  font-size: 16px;
+  font-size: 15px;
   margin-top: -10px;
   color: var(--title-color);
   margin-bottom: 5px;
@@ -370,6 +344,26 @@ h4:hover {
   }
 
   .footer_copy {
-    font-size: 15px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    margin-inline: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-block: 20px 10px;
+  }
+  .footer_container {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: initial;
+  }
+  .footer_copy {
+    margin: 0;
+    font-size: 11px;
+    justify-self: flex-end;
   }
 }
