@@ -1,0 +1,1 @@
+This is my personal portfolio website, showcasing the projects I have worked on. The website is built using HTML, CSS and JavaScript. It serves as a platform to display my skills, experiences, and the projects I have completed. The website is regularly updated with new projects as I continue to work on them.
